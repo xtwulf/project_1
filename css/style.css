@@ -16,6 +16,13 @@ p, label {
 
 }
 
+q {
+  display: block;
+  color: blue;
+  margin: 20px 0 20px 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 nav {
   /* background: #b5f260; */
   background: red;
@@ -38,6 +45,7 @@ nav {
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
     font-size: 0.75em;
+    text-align: center;
   }
 
 
@@ -108,7 +116,10 @@ nav {
   padding-top: var(--main-padding);
   
 }
-
+.card_header {
+  display: inline-flex;
+  margin-right: 20px;
+}
 
 #sidebar {
   background: #4CAF50;
