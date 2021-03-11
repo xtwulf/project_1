@@ -1,0 +1,125 @@
+/* Defining variables */
+:root {
+    --main-radius:5px;
+    --main-padding:10px;
+  } 
+  
+/* =================== ELEMENT STYLES =================== */
+/* image styles */
+img {
+    width: 100%;
+}
+
+
+p, label {
+    font-size: 1.5em;
+
+}
+
+nav {
+  /* background: #b5f260; */
+  background: red;
+  grid-area: nav;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  }
+  
+  main {
+    background: grey;
+    grid-area: main;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    
+  }
+
+  footer {
+    background: grey;
+    grid-area: footer;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    font-size: 0.75em;
+  }
+
+
+/* General information for the layout container */
+.container {
+    gap: 0.2em;
+    font-family: sans-serif;
+    
+    /* text-transform: uppercase; */
+    font-size: 12px;
+    text-align: left;    
+}
+
+
+/* Navigation Styles */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    /* background-color: dodgerblue; */
+    /* height: 50px; */
+    
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-bottom: solid 1px #4CAF50;
+
+}
+  
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-bottom: solid 1px white;
+}
+
+/* Button styles*/
+.btn {
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.post_card {
+  border: solid 1px red;
+  grid-area: post_content;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  
+}
+
+
+#sidebar {
+  background: #4CAF50;
+  grid-area: sidebar;
+  border-radius: var(--main-radius);
+  padding: var(--main-padding);
+  text-align: left;
+  height: 250px;
+
+
+}
+
+
+
