@@ -48,6 +48,10 @@ nav {
     text-align: center;
   }
 
+  ul {
+    font-size: 12px;
+  }
+
 
 /* General information for the layout container */
 .container {
@@ -117,9 +121,14 @@ nav {
   
 }
 .card_header {
-  display: inline-flex;
-  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+  
 }
+
 
 #sidebar {
   background: #4CAF50;

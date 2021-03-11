@@ -20,13 +20,15 @@ text-align: center;
 display: grid;
 min-height: 100vh;
 grid-template-columns: 0.75fr 1fr 1fr 0.75fr;
-grid-template-rows: 75px 0.5fr 1.75fr 0.2fr;
+grid-template-rows: 75px 0.5fr 1.75fr 1fr 0.2fr;
 grid-template-areas: 
   "nav nav nav nav"
   "empty1 main main empty2"
   "empty1 content content empty2"
   /* "sidebar content content empty" */
-  "empty1 footer footer empty2"; 
+  "empty1 author author empty2"
+  "empty1 footer footer empty2";
+   
 }
 
 
@@ -37,6 +39,8 @@ grid-template-areas:
   border-radius: var(--main-radius);
 }
 
+
+
 #empty1 {
   
   grid-area: empty1;
@@ -45,6 +49,11 @@ grid-template-areas:
 
   grid-area: empty2;
 }
+#author {
+  grid-area: author;
+  background: red;
+}
+
 
 @media only screen and (max-width: 550px) {
   .container {
