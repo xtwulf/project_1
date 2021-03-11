@@ -1,3 +1,9 @@
+/* image styles */
+img {
+    width: 100%;
+    
+}
+
 .card_img_header {
     width: 100px;
     margin-left: 20px;
@@ -5,5 +11,7 @@
 
 .card_img_text {
     width: 200px;
+    float: right;
+    margin: 5px;
 }
 
