@@ -6,7 +6,7 @@
     grid-template-rows: 75px 0.5fr 0.5fr 0.5fr 0.2fr;
     grid-template-areas: 
     "nav nav nav nav"
-    "sidebar main main main"
+    "sidebar_l main main sidebar_r"
     "content1 content2 content3 content4"
     "content5 content6 content7 content8"
     "footer footer footer footer";
@@ -36,6 +36,16 @@
 
 #content6 {
     grid-area: content6;
+}
+
+#sidebar_l {
+    grid-area: sidebar_l;
+  }
+
+#sidebar_r {
+grid-area: sidebar_r;
+font-size: 12px;
+text-align: center;
 }
 
 

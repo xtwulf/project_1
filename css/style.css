@@ -183,13 +183,21 @@ ul {
   color: white;
 }
 
-#sidebar {
-  background: #4CAF50;
-  grid-area: sidebar;
+/* ============== */
+/* Sidebar Styles */
+/* ============== */
+
+
+.sidebar {
+  background-color: #4CAF50;
   border-radius: var(--main-radius);
   padding: var(--main-padding);
   text-align: left;
   height: 250px;
+}
+
+#sidebar_buttons {
+  font-size: 18px;
 }
 
 /* =============== */
