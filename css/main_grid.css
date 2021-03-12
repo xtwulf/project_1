@@ -3,7 +3,7 @@
     display: grid;
     
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 75px 0.5fr 1.75fr 1.75fr 0.2fr;
+    grid-template-rows: 75px 0.5fr 0.5fr 0.5fr 0.2fr;
     grid-template-areas: 
     "nav nav nav nav"
     "sidebar main main main"
