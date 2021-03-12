@@ -92,9 +92,10 @@ ul {
     border-bottom: solid 1px white;
 }
 
-/* ============= */
-/* Button styles */
-/* ============= */
+/* =========================== */
+/* Button styles               */
+/* (styles from w3schools.com) */
+/* =========================== */
 
 .btn {
     cursor: pointer; /* Add a pointer cursor on mouse-over */
@@ -123,9 +124,10 @@ ul {
 }
 
 
-/* ================ */
-/* Social Media Bar */
-/* ================ */
+/* ========================== */
+/* Social Media Bar           */
+/* (styles from w3schools.com */
+/* ========================== */
 
 .social_buttons {
     font-size: 30px;
